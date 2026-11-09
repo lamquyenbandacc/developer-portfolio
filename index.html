@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Developer Portfolio - Software & Web Development Showcase">
+  <title>Khôi Trần | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="home"></div>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#home" aria-label="Back to home">
+        <span class="brand-mark">KT</span>
+        <div class="profile_name">
+          <span class="brand-text"><strong>Khôi Trần</strong><small>PORTFOLIO</small></span>
+        </div>
+      </a>
+      <nav class="main-nav topdiv" aria-label="Main navigation">
+        <a class="topmenu" href="#about-me">About Me</a>
+        <a class="topmenu" href="#projects">Project Details</a>
+        <a class="topmenu" href="#skills">Skills</a>
+        <a class="topmenu" href="#recommendations">Recommendations</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 1: About Me -->
+    <section class="hero section" id="about-me">
+      <div class="container hero-grid">
+        <div class="hero-visual">
+          <div class="portrait-backdrop"></div>
+          <img class="profile-photo profile_image" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Profile avatar of Khôi Trần">
+          <span class="image-note">PASSION · CODE · CREATE</span>
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> ABOUT ME</p>
+          <h1 id="about-title">Hi, I'm <span>Khôi Trần.</span> <span class="wave">👋</span></h1>
+          <p class="hero-role">Web Developer <span>×</span> Software Engineering Student</p>
+          <p class="hero-summary">
+            I am a student passionate about web development, responsive user interfaces, and solving real-world challenges through clean, maintainable code. Continuously learning modern technologies and building intuitive applications.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore My Projects &rarr;</a>
+            <a class="button button-outline" href="#skills">View Skills &darr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Skills -->
+    <section class="section skills-section skills" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">01 / TECHNICAL TOOLKIT</p>
+            <h2>My <span>Skills</span></h2>
+          </div>
+          <p>Core technologies I work with regularly.</p>
+        </div>
+        <div class="skills-grid all_skills">
+          <article class="skill-card skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 icon" width="56" height="56">
+            <h3>HTML5</h3>
+            <p>Semantic Structure</p>
+          </article>
+          <article class="skill-card skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3 icon" width="56" height="56">
+            <h3>CSS3</h3>
+            <p>Responsive Styling</p>
+          </article>
+          <article class="skill-card skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript icon" width="56" height="56">
+            <h3>JavaScript</h3>
+            <p>Interactive DOM</p>
+          </article>
+          <article class="skill-card skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python icon" width="56" height="56">
+            <h3>Python</h3>
+            <p>Scripting & Data</p>
+          </article>
+          <article class="skill-card skill">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git icon" width="56" height="56">
+            <h3>Git & GitHub</h3>
+            <p>Version Control</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Projects -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">02 / FEATURED WORK</p>
+            <h2>Project <span>Details</span></h2>
+          </div>
+          <p>Recent projects demonstrating core technical competencies.</p>
+        </div>
+        <div class="projects-grid projects-container">
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">01</span><span class="project-symbol">&commat;</span></div>
+            <p class="project-type">WEB APPLICATION</p>
+            <h3>Smart Inventory Tracker</h3>
+            <p>A responsive dashboard designed for managing products, tracking stock levels in real time, and generating automated restock reports.</p>
+            <div class="tech-stack"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">02</span><span class="project-symbol">&sect;</span></div>
+            <p class="project-type">UTILITY TOOL</p>
+            <h3>Personal Finance Organizer</h3>
+            <p>A lightweight web application for tracking recurring expenses, setting monthly savings targets, and visualizing spending breakdowns.</p>
+            <div class="tech-stack"><span>JavaScript</span><span>Local Storage</span><span>CSS Grid</span></div>
+          </article>
+          <article class="project-card">
+            <div class="project-top"><span class="project-number">03</span><span class="project-symbol">&Delta;</span></div>
+            <p class="project-type">DATA AUTOMATION</p>
+            <h3>Academic Resource Hub</h3>
+            <p>A curated portal aggregating university course materials, schedules, and past exams with fast client-side filtering.</p>
+            <div class="tech-stack"><span>Python</span><span>Vanilla JS</span><span>Flexbox</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Recommendations -->
+    <section class="section recommendations-section" id="recommendations">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">03 / ENDORSEMENTS</p>
+            <h2>Recommendations</h2>
+          </div>
+          <p>What mentors and peers say about collaborating with me.</p>
+        </div>
+
+        <div id="all_recommendations" class="recommendations-grid all_recommendations">
+          <div class="recommendation recommendation-card">
+            <span class="quote-mark">&ldquo;</span>
+            <p>Khôi has great dedication to clean code and consistently delivers tasks well ahead of project deadlines.</p>
+            <span class="closing-quote">&rdquo;</span>
+            <div class="rec-meta"><span class="rec-dot"></span>Peer Review 01</div>
+          </div>
+          <div class="recommendation recommendation-card">
+            <span class="quote-mark">&ldquo;</span>
+            <p>A proactive teammate with a solid grasp of modern web layouts and responsive UI principles.</p>
+            <span class="closing-quote">&rdquo;</span>
+            <div class="rec-meta"><span class="rec-dot"></span>Project Mentor</div>
+          </div>
+          <div class="recommendation recommendation-card">
+            <span class="quote-mark">&ldquo;</span>
+            <p>Excellent communication and creative problem-solving skills throughout the semester project.</p>
+            <span class="closing-quote">&rdquo;</span>
+            <div class="rec-meta"><span class="rec-dot"></span>Lab Partner</div>
+          </div>
+        </div>
+
+        <div class="recommendation-form-wrap">
+          <div class="form-intro">
+            <p class="eyebrow">SUBMIT FEEDBACK</p>
+            <h3>Leave a Recommendation</h3>
+            <p>Share your feedback below. It will appear live in the recommendation list.</p>
+          </div>
+          <form id="recommendation-form" class="recommendation-form" autocomplete="off">
+            <label for="new-recommendation">Your Recommendation <span class="required">*</span></label>
+            <textarea id="new-recommendation" name="recommendation" rows="4" maxlength="500" required placeholder="Write your words here..."></textarea>
+            <div class="form-footer">
+              <span id="form-error" class="form-error"></span>
+              <button class="button button-primary" type="submit">Submit Recommendation &rarr;</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <strong>Khôi Trần</strong>
+      <span>Built with HTML5 &middot; CSS3 &middot; JavaScript</span>
+      <a href="#home">Back to top &uarr;</a>
+    </div>
+  </footer>
+
+  <!-- Working Home icon required by rubric -->
+  <div class="iconbutton">
+    <a class="home-button" href="#home" title="Back to top" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" width="22" height="22" stroke="currentColor" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Popup modal triggered ONLY after valid submission -->
+  <div id="popup" class="popup-overlay" hidden>
+    <div class="popup-content" role="dialog" aria-modal="true" aria-labelledby="popup-title">
+      <div class="popup-check">&#10003;</div>
+      <h2 id="popup-title">Thank You!</h2>
+      <p id="popup-message">Your recommendation has been submitted successfully.</p>
+      <button id="popup-close" class="button button-primary" type="button">Close</button>
+    </div>
+  </div>
+</body>
+</html>
